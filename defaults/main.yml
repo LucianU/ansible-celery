@@ -1,2 +1,3 @@
 ---
 celery_work_dir: /opt/celery
+celery_virtualenv: "{{ python_virtualenvs_dir }}/celery"
