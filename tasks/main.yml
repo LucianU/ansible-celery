@@ -18,6 +18,7 @@
   copy:
     src: "{{ item }}"
     dest: "/etc/init.d/{{ item }}"
+    mode: 0755
   with_items:
     - celeryd
     - celerybeat
