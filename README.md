@@ -10,7 +10,7 @@ Role Variables
 | Variable | Description | Default value |
 |----------|-------------|---------------|
 |`celery_app`| Import path of the Celery app | `none` |
-|`celery_virtualenv`| Virtualenv where Celery is installed | `{{ python_virtualenvs_dir }}/celery` |
+|`celery_virtualenv`| Virtualenv where Celery is installed | `none` |
 |`celery_work_dir`| Celery's working dir | `/opt/celery` |
 
 Dependencies
